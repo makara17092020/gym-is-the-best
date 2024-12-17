@@ -1,0 +1,34 @@
+.container{
+    width: 1200px;
+    height: 600px;
+    background-color: cadetblue;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 1%;
+}
+.box-row{
+    width: 23%;
+    height: 100%;
+    background-color: burlywood;
+}
+.column{
+    width: 23%;
+    height: 400px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1%;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.box-column{
+    width: 100%;
+    height: 22%;
+    background-color: burlywood;
+}
